@@ -12,6 +12,8 @@ const styles = StyleSheet.create({
     alignItems: "center",
     display: "flex",
     flexDirection: "row",
+    width: width - 50,
+    alignSelf: "center"
   },
   imageContainer: {
     backgroundColor: 'rgba(0,0,0,0.5)',

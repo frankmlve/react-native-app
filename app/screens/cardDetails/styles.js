@@ -1,4 +1,5 @@
 import { StyleSheet } from "react-native";
+import colors from "../../utils/colors";
 const styles = StyleSheet.create({
   image: {
     width: "100%",
@@ -11,6 +12,7 @@ const styles = StyleSheet.create({
     fontSize: 20,
     fontWeight: "bold",
     marginBottom: 10,
+    color: colors.white
   },
   price: {
     color: "lightblue",

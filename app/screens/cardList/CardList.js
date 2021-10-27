@@ -3,6 +3,7 @@ import React from "react";
 import Screen from "../../components/screen/Screen";
 import Card from "../../components/card/Card";
 import Icon from "../../components/icon/Icon";
+import { styles } from "./styles";
 
 const products = [
     {
@@ -17,7 +18,7 @@ const products = [
 function CardList({ navigation }) {
     return (
         <Screen>
-            <View>
+            <View >
                 <FlatList
                     data={products}
                     keyExtractor={(menuItem) => menuItem.title}

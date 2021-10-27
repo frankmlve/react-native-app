@@ -4,7 +4,6 @@ import Constants from "expo-constants";
 const styles = StyleSheet.create({
   screen: {
     flex: 1,
-    backgroundColor: "#f8f4f4",
     padding: 15,
     paddingTop: Constants.statusBarHeight,
   },
